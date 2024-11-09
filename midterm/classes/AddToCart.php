@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['paymentMethod'] = $paymentMethod;
     $_SESSION['deliveryVehicle'] = $deliveryVehicle;
 
-    header('Location: ../view/view_items.php');
+    header('Location: ../view/view_menu_items.php');
     exit();
 }
 
